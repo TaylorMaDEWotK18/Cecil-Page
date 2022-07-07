@@ -14,7 +14,12 @@ header {
     text-align: center;
 }
 p {
-    width: auto;
+    width: auto;   
     max-width: 100vw;
-    padding: 10px 15px;
+    padding: 10px 10px;
+    border: solid 5px;
+    margin: 12px 5px;
+    color:blueviolet;
+    font-size: calc(16px + 1vh);
+    text-align: center;
 }
