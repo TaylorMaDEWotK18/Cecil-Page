@@ -21,7 +21,7 @@ p {
     font-size: calc(16px + 1vh);
     text-align: center;
 }
-p, img, figcaption {
+p, figcaption {
     border: solid 5px;
     color:blueviolet;
 }
