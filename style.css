@@ -23,3 +23,13 @@ p {
     font-size: calc(16px + 1vh);
     text-align: center;
 }
+figure {
+    position:relative;
+    margin: 0;
+}
+figcaption {
+    position: absolute;
+    width: 100%;
+    padding: 2rem;
+    text-align: center;
+}
