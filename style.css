@@ -27,7 +27,8 @@ p, figcaption {
 }
 img {
     width: 100%;
-    max-width: 500px;
+    /* max-width: 500px; */
+    margin: 20px auto;
 }
 #title {
     font-size: 2em;
@@ -40,7 +41,7 @@ figure {
 figcaption {
     position: absolute;
     width: 100%;
-    max-width: 500px;
+    /* max-width: 500px; */
     padding: 1rem;
     bottom: 394px;
     background-color: silver;
