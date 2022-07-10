@@ -26,9 +26,10 @@ p, figcaption {
     color:blueviolet;
 }
 img {
-    width: 100%;
-    /* max-width: 500px; */
-    margin: 20px auto;
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto; 
 }
 #title {
     font-size: 2em;
@@ -43,7 +44,7 @@ figcaption {
     width: 100%;
     /* max-width: 500px; */
     padding: 1rem;
-    bottom: 394px;
+    bottom: 200px;
     background-color: silver;
     text-align: center;
 }
