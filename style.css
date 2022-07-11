@@ -51,7 +51,7 @@ figure {
     margin: 0;
 }
 figcaption {
-    position: fixed;
+    position: absolute;
     width: 100%;
     /* max-width: 500px; */
     padding: 1rem;
