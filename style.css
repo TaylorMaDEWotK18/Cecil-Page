@@ -40,11 +40,11 @@ figure {
     margin: 0;
 }
 figcaption {
-    position: absolute;
+    position: fixed;
     width: 100%;
     /* max-width: 500px; */
     padding: 1rem;
-    bottom: 200px;
+    bottom: 50px;
     background-color: silver;
     text-align: center;
 }
