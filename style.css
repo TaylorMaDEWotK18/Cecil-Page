@@ -17,8 +17,11 @@ h1 {
     padding: 1px 20px;
     color: blueviolet;
 }
-div .main-info {
+div.main-info {
     min-height: 100vh;
+    padding: 1rem;
+    border: 2px solid grey;
+    background-color: silver;
 }
 p {
     width: auto;   
