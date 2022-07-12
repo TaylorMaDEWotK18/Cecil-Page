@@ -11,6 +11,9 @@ header {
     font-size: calc(16px + 1vh);
     text-align: center;
 }
+article {
+    margin-top: 3rem;
+}
 h1 {
     padding: 1px 20px;
     color: blueviolet;
