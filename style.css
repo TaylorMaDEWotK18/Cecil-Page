@@ -9,13 +9,14 @@ header {
     padding: 10px 10px;
     border: solid 8px blueviolet;
     border-bottom: rgb(66, 3, 88) solid 10px;
+    border-top: rgb(66, 3, 88) solid 10px;
     color: blueviolet;
     background-color: rgb(222, 215, 215);
     font-size: calc(16px + 1vh);
     text-align: center;
 }
 article {
-    margin-top: 5rem;
+    margin-top: 6rem;
 }
 h1 {
     padding: 1px 20px;
