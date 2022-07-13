@@ -4,12 +4,13 @@
 header {
     position: fixed;
     top: 0;
+    left: 0;
     width: 100%;
-    /* max-width: 100vw; */
     padding: 10px 10px;
     border: solid 8px blueviolet;
     border-bottom: rgb(66, 3, 88) solid 10px;
     color: blueviolet;
+    background-color: rgb(222, 215, 215);
     font-size: calc(16px + 1vh);
     text-align: center;
 }
