@@ -17,6 +17,9 @@ header {
     font-size: 1rem;
     text-align: center;
 }
+body {
+    font-family: "Verdana";
+}
 article {
     margin-top: 6rem;
 }
@@ -27,7 +30,7 @@ h1 {
 div.main-info {
     min-height: 100vh;
     padding: 10px 10px;
-    margin: 0 3px;
+    margin: 0 30px;
     margin-bottom: 1rem;
     border: 2px solid grey;
     background-color: silver;
@@ -39,7 +42,7 @@ p {
     margin: 12px 5px;
     font-size: calc(16px + 1vh);
     color: blueviolet;
-    text-align: center;
+    /* text-align: center; */
 }
 img {
     display: block;
