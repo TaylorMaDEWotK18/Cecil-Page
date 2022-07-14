@@ -53,6 +53,7 @@ img {
     font-weight: bold;
 }
 .starter-class {
+    position: sticky;
     padding: 12px 15px;
     border: 5px solid blueviolet;
     background:rgb(66, 3, 88);
@@ -73,4 +74,10 @@ figcaption {
     bottom: 200px;
     background-color: silver;
     text-align: center;
+}
+
+@media print {
+    div.main-info {
+        min-height: auto;
+    }
 }
