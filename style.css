@@ -97,9 +97,14 @@ ul li {
     }
 }
 
-@media screen and (min-width:600px) {
+@media screen and (min-width:500px) {
     ul li {
         display: inline-block;
         width: 32%;
+    }
+}
+@media screen and (min-width: 900px), (orientation: portrait) {
+    body {
+        background-color: black;
     }
 }
