@@ -13,7 +13,7 @@ header {
     border-top: rgb(66, 3, 88) solid 10px;
     color: blueviolet;
     background-color: rgb(222, 215, 215);
-    font-size: calc(16px + 1vh);
+    font-size: 1rem;
     text-align: center;
 }
 article {
