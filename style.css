@@ -3,6 +3,7 @@
 }
 header {
     position: fixed;
+    z-index: 2;
     top: 0;
     left: 0;
     width: 100%;
@@ -38,10 +39,6 @@ p {
     color: blueviolet;
     text-align: center;
 }
-figcaption {
-    border: solid 5px;
-    color:blueviolet;
-}
 img {
     display: block;
     width: 50%;
@@ -54,6 +51,7 @@ img {
 }
 .starter-class {
     position: sticky;
+    z-index: 3;
     padding: 12px 15px;
     border: 5px solid blueviolet;
     background:rgb(66, 3, 88);
@@ -64,14 +62,16 @@ img {
 }
 figure {
     position:relative;
+    z-index: 1;
     margin: 0;
 }
 figcaption {
     position: sticky;
     width: 100%;
-    /* max-width: 500px; */
     padding: 1rem;
+    border: solid 5px;
     bottom: 200px;
+    color:blueviolet;
     background-color: silver;
     text-align: center;
 }
