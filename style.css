@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    padding: 0;
 }
 header {
     position: fixed;
@@ -76,9 +77,28 @@ figcaption {
     background-color: silver;
     text-align: center;
 }
-
+ul li {
+    display: block;
+    padding: 10px 10px;
+    padding-left: -40px;
+    border: solid 8px blueviolet;
+    border-bottom: rgb(66, 3, 88) solid 10px;
+    border-top: rgb(66, 3, 88) solid 10px;
+    margin-bottom: 1rem;
+    color: blueviolet;
+    background-color: rgb(222, 215, 215);
+    font-weight: bold;
+    text-align: center;
+}
 @media print {
     div.main-info {
         min-height: auto;
+    }
+}
+
+@media screen and (min-width:600px) {
+    ul li {
+        display: inline-block;
+        width: 20%;
     }
 }
