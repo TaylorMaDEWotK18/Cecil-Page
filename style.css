@@ -18,8 +18,10 @@ header {
     text-align: center;
 }
 body {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Cormorant SC', serif;
+    font-weight: 700;
     line-height: 1.5;
+    background-color: blueviolet;
 }
 article {
     margin-top: 6rem;
