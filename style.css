@@ -79,6 +79,8 @@ figcaption {
     bottom: 200px;
     color:blueviolet;
     background-color: silver;
+    font-size: 1.4rem;
+    font-weight: bold;
     text-align: center;
 }
 ul li {
