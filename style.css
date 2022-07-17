@@ -17,11 +17,8 @@ header {
     font-size: 1rem;
     text-align: center;
 }
-/* Just typing a quick note to figure out this new commint update */
 body {
-    font-family: 'Cormorant SC', serif;
-    font-weight: 700;
-    line-height: 1.5;
+    font: 700 120%/1.5 'Cormorant SC', serif;
     background-color: rgb(63, 21, 102);
 }
 article {
