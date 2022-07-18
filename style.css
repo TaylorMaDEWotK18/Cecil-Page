@@ -14,8 +14,9 @@ header {
     border-top: rgb(66, 3, 88) solid 10px;
     color: blueviolet;
     background-color: rgb(222, 215, 215);
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-align: center;
+    text-shadow: 2px 3px 4px #000;
 }
 body {
     font: 700 120%/1.5 'Cormorant SC', serif;
