@@ -16,7 +16,7 @@ header {
     background-color: rgb(222, 215, 215);
     font-size: 1.2rem;
     text-align: center;
-    text-shadow: 2px 3px 4px #000;
+    text-shadow: 3px 4px 4px #000;
 }
 body {
     font: 700 120%/1.5 'Cormorant SC', serif;
@@ -70,6 +70,7 @@ img {
     color: white;
     font-size: 1.5rem;
     text-align: center;
+    text-shadow: 3px 3px 4px rgb(239, 198, 248);
     font-weight: bold;
 }
 figure {
