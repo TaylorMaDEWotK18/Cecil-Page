@@ -21,6 +21,9 @@ body {
     font: 700 120%/1.5 'Cormorant SC', serif;
     background-color: rgb(63, 21, 102);
 }
+main {
+    hyphens: auto;
+}
 article {
     margin-top: 6rem;
 }
