@@ -86,6 +86,13 @@ img {
     text-shadow: 3px 3px 4px rgb(239, 198, 248);
     font-weight: bold;
 }
+a {
+    color: rgb(118, 78, 154)
+}
+a:hover {
+    color: white;
+    transition: .2s;
+}
 figure {
     position:relative;
     z-index: 2;
