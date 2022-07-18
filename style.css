@@ -63,8 +63,12 @@ img {
 #weapon-choice {
     padding: 1rem;
     border: 3px solid blueviolet;
-    margin: 0 1.3rem;
+    margin: 1rem 1.3rem;
+    margin-bottom: 1rem;
     background: rgb(66, 3, 88);
+    color: white;
+    text-align: center;
+    text-shadow: 3px 3px 4px rgb(239, 198, 248);
     box-shadow: 0 0 10px rgb(255, 255, 255);
 }
 .starter-class {
