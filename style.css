@@ -60,6 +60,13 @@ img {
     font-size: 2em;
     font-weight: bold;
 }
+#weapon-choice {
+    padding: 1rem;
+    border: 3px solid blueviolet;
+    margin: 0 1.3rem;
+    background: rgb(66, 3, 88);
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+}
 .starter-class {
     position: sticky;
     z-index: 3;
