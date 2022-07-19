@@ -87,7 +87,8 @@ img {
     font-weight: bold;
 }
 a {
-    color: rgb(118, 78, 154)
+    color: rgb(118, 78, 154);
+    text-decoration: none;
 }
 a:hover {
     color: white;
@@ -118,7 +119,7 @@ ul li {
     border-bottom: rgb(66, 3, 88) solid 10px;
     border-top: rgb(66, 3, 88) solid 10px;
     margin-bottom: 1rem;
-    background-color: rgb(222, 215, 215);
+    background-color: rgb(188, 186, 186);
     font-size: 1.3rem;
     font-weight: bold;
     text-align: center;
