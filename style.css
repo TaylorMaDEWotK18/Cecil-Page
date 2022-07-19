@@ -90,6 +90,7 @@ img {
 a {
     color: rgb(118, 78, 154);
     text-decoration: none;
+    margin: 0 auto;
 }
 a:hover {
     color: white;
@@ -124,7 +125,7 @@ ul li {
     font-size: 1.3rem;
     font-weight: bold;
     text-align: center;
-    text-shadow: 3px 4px 5px #000;
+    text-shadow: 3px 4px 6px #000;
 }
 footer {
     padding: 10px;
