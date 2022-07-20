@@ -115,8 +115,9 @@ figcaption {
     text-align: center;
 }
 figcaption::after {
-    content: '\2193';
+    content: '\21D1';
     display: block;
+    font-size: 3rem;
 }
 ul li {
     display: block;
