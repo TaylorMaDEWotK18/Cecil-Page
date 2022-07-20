@@ -114,6 +114,10 @@ figcaption {
     font-weight: bold;
     text-align: center;
 }
+figcaption::after {
+    content: 'Hello World';
+    display: block;
+}
 ul li {
     display: block;
     width: 100%;
