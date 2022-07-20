@@ -115,7 +115,7 @@ figcaption {
     text-align: center;
 }
 figcaption::after {
-    content: 'Hello World';
+    content: '\2193';
     display: block;
 }
 ul li {
