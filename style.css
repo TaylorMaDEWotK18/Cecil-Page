@@ -88,8 +88,9 @@ img {
     font-weight: bold;
 }
 #dark-knight-pic {
-    background: url(https://glamours.eorzeacollection.com/101123/cecil-harvey-og-dark-knight-sprite-0-1626924290.png) no-repeat center  silver;
-    background-blend-mode: difference;
+    background: linear-gradient(silver 0%, rgb(93, 6, 120) 90%),
+    url(https://glamours.eorzeacollection.com/101123/cecil-harvey-og-dark-knight-sprite-0-1626924290.png) no-repeat center  silver;
+    background-blend-mode: hard-light;
 }
 a {
     color: rgb(118, 78, 154);
