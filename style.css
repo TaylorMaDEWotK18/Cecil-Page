@@ -131,7 +131,7 @@ ul li {
     border-bottom: rgb(66, 3, 88) solid 10px;
     border-top: rgb(66, 3, 88) solid 10px;
     margin-bottom: 1rem;
-    background: radial-gradient(purple, black);
+    background: radial-gradient(circle, purple, black);
     font-size: 1.3rem;
     font-weight: bold;
     text-align: center;
