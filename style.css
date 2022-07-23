@@ -13,6 +13,7 @@ header {
     border-bottom: rgb(66, 3, 88) solid 10px;
     border-top: rgb(66, 3, 88) solid 10px;
     background-color: rgb(222, 215, 215);
+    background: linear-gradient(silver 20%, rgb(93, 6, 120) 90%);
     color: blueviolet;
     font-size: 1.2rem;
     text-align: center;
