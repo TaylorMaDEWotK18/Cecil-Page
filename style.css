@@ -127,11 +127,11 @@ ul li {
     display: block;
     width: 100%;
     padding: 10px 10px;
-    border: solid 8px blueviolet;
+    border: solid 8px black;
     border-bottom: rgb(66, 3, 88) solid 10px;
     border-top: rgb(66, 3, 88) solid 10px;
     margin-bottom: 1rem;
-    background: radial-gradient(purple, black) rgb(188, 186, 186);
+    background: radial-gradient(purple, black);
     font-size: 1.3rem;
     font-weight: bold;
     text-align: center;
