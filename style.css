@@ -20,7 +20,7 @@ header {
 }
 body {
     font: 700 120%/1.5 'Cormorant SC', serif;
-    background-color: rgb(63, 21, 102);
+    background-color: black;
 }
 main {
     hyphens: auto;
@@ -131,7 +131,7 @@ ul li {
     border-bottom: rgb(66, 3, 88) solid 10px;
     border-top: rgb(66, 3, 88) solid 10px;
     margin-bottom: 1rem;
-    background: radial-gradient(circle, black, purple);
+    background: radial-gradient(circle, purple, black);
     font-size: 1.3rem;
     font-weight: bold;
     text-align: center;
@@ -157,10 +157,7 @@ footer {
 }
 @media screen and (min-width: 900px), (orientation: portrait) {
     body {
-        background-color: black;
-    }
-    ul li {
-        background: radial-gradient(circle, purple, black);
+        background: radial-gradient(circle, rgb(120, 9, 161), black);
     }
 }
 @media screen and (max-width: 360px) {
