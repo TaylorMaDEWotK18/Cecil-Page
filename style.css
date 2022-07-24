@@ -59,7 +59,7 @@ img {
     padding: 10px 10px;
     font-size: 2em;
     font-weight: bold;
-    background: linear-gradient( 35deg, rgb(93, 6, 120) 5%, silver 80%);
+    background: linear-gradient( 0deg, silver 40%,  rgb(93, 6, 120) 110%);
 }
 #weapon-choice {
     max-width: 60%;
