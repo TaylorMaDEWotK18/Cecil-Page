@@ -11,6 +11,7 @@ header {
     border: solid 8px blueviolet;
     border-bottom: rgb(66, 3, 88) solid 10px;
     border-top: rgb(66, 3, 88) solid 10px;
+    margin-bottom: 1rem;
     background-color: rgb(222, 215, 215);
     background: linear-gradient( 0deg, silver 40%,  rgb(93, 6, 120) 110%);
     color: blueviolet;
