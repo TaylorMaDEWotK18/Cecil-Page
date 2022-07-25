@@ -21,9 +21,11 @@ header {
 }
 .container {
     display: flex;
+    justify-content: space-between;
 }
 nav {
     flex: 1;
+    justify-content: space-around;
 }
 body {
     font: 700 120%/1.5 'Cormorant SC', serif;
