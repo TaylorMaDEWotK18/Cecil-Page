@@ -149,11 +149,6 @@ footer {
         min-height: auto;
     }
 }
-@media screen and (min-width: 720px) {
-    header {
-        padding: 10vh 1rem;
-    }
-}
 @media screen and (min-width:500px) {
     ul li {
         display: inline-block;
