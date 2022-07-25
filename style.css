@@ -12,6 +12,7 @@ header {
     border-bottom: rgb(66, 3, 88) solid 10px;
     border-top: rgb(66, 3, 88) solid 10px;
     background-color: rgb(222, 215, 215);
+    background: linear-gradient( 0deg, silver 40%,  rgb(93, 6, 120) 110%);
     color: blueviolet;
     font-size: 1.2rem;
     text-align: center;
@@ -59,7 +60,6 @@ img {
     padding: 10px 10px;
     font-size: 2em;
     font-weight: bold;
-    background: linear-gradient( 0deg, silver 40%,  rgb(93, 6, 120) 110%);
 }
 #weapon-choice {
     max-width: 60%;
@@ -149,7 +149,11 @@ footer {
         min-height: auto;
     }
 }
-
+@media screen and (min-width: 720px) {
+    header {
+        padding: 10vh 1rem;
+    }
+}
 @media screen and (min-width:500px) {
     ul li {
         display: inline-block;
