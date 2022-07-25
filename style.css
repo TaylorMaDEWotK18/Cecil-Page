@@ -19,6 +19,9 @@ header {
     text-align: center;
     text-shadow: 3px 4px 4px #000;
 }
+.container {
+    display: flex;
+}
 body {
     font: 700 120%/1.5 'Cormorant SC', serif;
     background-color: black;
