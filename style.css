@@ -125,9 +125,11 @@ figcaption::after {
     display: block;
     font-size: 3rem;
 }
-ul li {
+ul {
     display: flex;
     flex-direction: row;
+}
+li {
     width: 100%;
     padding: 10px 10px;
     border: solid 8px black;
@@ -151,10 +153,9 @@ footer {
         min-height: auto;
     }
 }
-@media screen and (min-width:500px) {
-    ul li {
+@media screen and (max-width:500px) {
+    ul {
         flex-direction: column;
-        width: 32%;
     }
 }
 @media screen and (min-width: 900px), (orientation: portrait) {
