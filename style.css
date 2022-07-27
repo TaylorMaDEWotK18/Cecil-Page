@@ -42,6 +42,9 @@ h1 {
     color: blueviolet;
     letter-spacing: .7rem;
 }
+.div-1 {
+    background-color:white;
+}
 div.main-info {
     min-height: 100vh;
     padding: 10px 10px;
@@ -50,6 +53,7 @@ div.main-info {
     border: 2px solid grey;
     background-color: silver;
 }
+
 p {
     width: auto;   
     max-width: 100vw;
