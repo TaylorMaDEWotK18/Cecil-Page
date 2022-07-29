@@ -31,6 +31,7 @@ ul {
 }
 li {
     /* width: 300px; */
+    flex: 1 200px;
     padding: 10px 10px;
     border: solid 8px black;
     border-bottom: rgb(66, 3, 88) solid 10px;
