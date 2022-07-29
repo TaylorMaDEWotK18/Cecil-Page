@@ -25,10 +25,15 @@ header {
 }
 ul {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    /* justify-content: space-between; */
     list-style: none;
     margin: .3rem .5rem;
+}
+#title {
+    padding: 10px 10px;
+    font-size: 2em;
+    font-weight: bold;
 }
 li {
     flex: 1 200px;
@@ -77,11 +82,6 @@ img {
     width: 50%;
     margin-left: auto;
     margin-right: auto; 
-}
-#title {
-    padding: 10px 10px;
-    font-size: 2em;
-    font-weight: bold;
 }
 #weapon-choice {
     max-width: 60%;
