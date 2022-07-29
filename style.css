@@ -26,11 +26,11 @@ header {
 ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     list-style: none;
 }
 li {
-    /* width: 200px; */
+    /* width: 300px; */
     padding: 10px 10px;
     border: solid 8px black;
     border-bottom: rgb(66, 3, 88) solid 10px;
