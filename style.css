@@ -23,19 +23,13 @@ header {
     text-align: center;
     text-shadow: 3px 4px 4px #000;
 }
-.container {
+ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: row;
-}
-ul {
-    /* display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between; */
+    justify-content: space-between;
     list-style: none;
 }
 li {
-    /* width: 300px; */
     flex: 1 200px;
     padding: 10px 10px;
     border: solid 8px black;
@@ -85,8 +79,6 @@ img {
     margin-right: auto; 
 }
 #title {
-    margin-right: auto;
-    flex-grow: 1;
     padding: 10px 10px;
     font-size: 2em;
     font-weight: bold;
