@@ -33,7 +33,7 @@ ul {
   }
 .main-nav {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     align-items: center;
     margin: .3rem .5rem;
 }
@@ -172,7 +172,7 @@ footer {
     letter-spacing : .4rem;
     }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 510px) {
     .main-nav, .main-header {
         flex-direction: column;
     }
@@ -180,7 +180,7 @@ footer {
         display: block;
     }
 }
-@media screen and (min-width: 500px) and (max-width: 942px) {
+@media screen and (min-width: 510px) and (max-width: 942px) {
     .main-header {
         flex-direction: column;
         align-items: center;
