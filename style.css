@@ -193,9 +193,13 @@ footer {
     }
     .col-container {
         display: flex;
+        justify-content: space-around;
     }
     .col {
         flex: 1;
+    }
+    .div-1 {
+        flex: 2;
     }
     .div-2 {
         order: -1;
