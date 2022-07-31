@@ -71,7 +71,7 @@ h1 {
 .div-1 {
     background-color:white;
 }
-div.main-info {
+.col {
     min-height: 100vh;
     padding: 10px 10px;
     margin: 0 30px;
@@ -199,5 +199,8 @@ footer {
     .main-header {
         flex-direction: row;
         justify-content: space-between;
+    }
+    .main-info {
+        display: flex;
     }
 }
