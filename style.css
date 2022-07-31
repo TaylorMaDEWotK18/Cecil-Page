@@ -203,18 +203,16 @@ footer {
     .starter-class {
         z-index: 0;
     }
+    .story-para  {
+        color: white;
+    }
     li {
         min-width: 200px;
-    }
-    article {
-        display: flex;
-    }
-    
+    } 
 }
 @media screen and (min-width: 942px) {
     .main-header {
         flex-direction: row;
         justify-content: space-between;
     }
-    
 }
