@@ -200,6 +200,9 @@ footer {
     .div-2 {
         order: -1;
     }
+    .starter-class {
+        z-index: 0;
+    }
     li {
         min-width: 200px;
     }
