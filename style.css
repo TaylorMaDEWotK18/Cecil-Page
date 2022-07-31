@@ -191,16 +191,27 @@ footer {
         align-items: center;
         margin: 0;
     }
+    .col-container {
+        display: flex;
+    }
+    .col {
+        flex: 1;
+    }
+    .div-2 {
+        order: -1;
+    }
     li {
         min-width: 200px;
     }
+    article {
+        display: flex;
+    }
+    
 }
 @media screen and (min-width: 942px) {
     .main-header {
         flex-direction: row;
         justify-content: space-between;
     }
-    .main-info {
-        display: flex;
-    }
+    
 }
