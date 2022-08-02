@@ -68,6 +68,9 @@ h1 {
     color: blueviolet;
     letter-spacing: .7rem;
 }
+h1, p, figcaption {
+    text-shadow: 2px 2px 4px rgb(142, 124, 149);
+}
 .div-1 {
     background-color:white;
 }
