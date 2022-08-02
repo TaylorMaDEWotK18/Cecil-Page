@@ -111,7 +111,7 @@ img {
 }
 .starter-class {
     position: sticky;
-    z-index: 3;
+    z-index: 1;
     top: 0;
     padding: 12px 15px;
     border: 5px solid blueviolet;
@@ -215,9 +215,6 @@ footer {
         flex-direction: row;
         justify-content: space-between;
     }
-    /* .col-container {
-        justify-content: space-around;
-    } */
     .col {
         flex: 1;
     }
@@ -230,8 +227,4 @@ footer {
     .starter-class {
         z-index: 0;
     }
-    
-    /* li {
-        min-width: 200px;
-    }  */
 }
