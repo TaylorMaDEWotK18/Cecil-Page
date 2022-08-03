@@ -184,11 +184,14 @@ footer {
     }
 }
 @media screen and (max-width: 719px) {
-    .main-nav, .main-header {
+    .main-header {
         flex-direction: column;
     }
+    .main-nav {
+        flex-direction: row;
+    }
     li {
-        min-width: 300px;
+        flex: 1;
     }
 }
 @media screen and (min-width: 720px) {
