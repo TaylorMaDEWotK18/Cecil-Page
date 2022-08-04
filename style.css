@@ -84,8 +84,9 @@ h1, p, figcaption {
 }
 .weapon-col {
     min-width: 150px;
-    border: solid 8px rgb(175, 174, 174);
-    margin:0.1rem .1rem;
+    border: solid 4px rgb(175, 174, 174);
+    margin: 0 30px;
+    margin-bottom: 1rem;
     background: radial-gradient(circle, purple, black);
     font-size: 1.3rem;
     font-weight: bold;
@@ -93,8 +94,10 @@ h1, p, figcaption {
 }
 .weapons {
     padding: .5rem;
+    margin: 1rem;
     color: blueviolet;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(234, 234, 234);
+    text-shadow: none;
 }
 p {
     width: auto;   
