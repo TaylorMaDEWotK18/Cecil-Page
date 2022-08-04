@@ -97,6 +97,7 @@ h1, p, figcaption {
     margin: 1rem;
     color: blueviolet;
     border-bottom: 1px solid rgb(234, 234, 234);
+    font-size: 1em;
     text-shadow: none;
 }
 p {
