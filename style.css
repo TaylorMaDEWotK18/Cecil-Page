@@ -42,7 +42,7 @@ ul {
     font-size: 2em;
     font-weight: bold;
 }
-li {
+.item {
     min-width: 150px;
     border: solid 8px black;
     border-bottom: rgb(66, 3, 88) solid 6px;
