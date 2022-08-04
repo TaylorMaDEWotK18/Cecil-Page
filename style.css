@@ -83,7 +83,8 @@ h1, p, figcaption {
     background-color: silver;
 }
 .weapon-col {
-    min-width: 150px;
+    display: flex;
+    flex-wrap: wrap;
     border: solid 4px rgb(175, 174, 174);
     margin: 0 30px;
     margin-bottom: 1rem;
@@ -240,9 +241,7 @@ footer {
         flex-direction: row;
         justify-content: space-between;
     }
-    .col .item {
-        flex: 1;
-    }
+    
     .div-1 {
         flex: 2;
     }
