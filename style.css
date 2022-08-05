@@ -84,6 +84,8 @@ h1, p, figcaption {
 }
 .weapon-col {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
     flex-wrap: wrap;
     border: solid 4px rgb(175, 174, 174);
     margin: 0 30px;
@@ -92,6 +94,13 @@ h1, p, figcaption {
     font-size: 1.3rem;
     font-weight: bold;
     text-shadow: 3px 4px 6px rgb(223, 220, 220);
+}
+.weapon-col h1 {
+    margin: 0 10px;
+}
+.weapon-list {
+    display: flex;
+    flex-direction: row;
 }
 .weapons {
     padding: .5rem;
