@@ -253,7 +253,7 @@ footer {
         flex-wrap: wrap;
     }
     .col {
-        flex: 1 30%;
+        flex: 1 15%;
     } 
     .div-1 {
         flex: 3;
