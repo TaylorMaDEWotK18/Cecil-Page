@@ -183,7 +183,7 @@ a {
 }
 a:hover {
     color: white;
-    transition: .2s;
+    transition: .5s;
 }
 figure {
     position:relative;
