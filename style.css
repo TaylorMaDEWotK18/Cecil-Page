@@ -123,7 +123,8 @@ button {
 button:hover {
     color: rgb(203, 196, 196);
     background-color: rgba(118, 52, 185, 0.6);
-    transition: .15s;
+    transition: .08s;
+    box-shadow: 0 0 10px 3px white;
 }
 p {
     width: auto;   
