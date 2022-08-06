@@ -166,11 +166,6 @@ img {
     text-shadow: 3px 3px 4px rgb(239, 198, 248);
     font-weight: bold;
 }
-.cecil-pic {
-    background: linear-gradient(silver 0%, rgb(93, 6, 120) 90%),
-    url("https://www.giantbomb.com/a/uploads/scale_medium/0/1433/777239-dark_knight_cecil.jpg") no-repeat center;
-    background-blend-mode: hard-light;
-}
 #dark-knight-pic {
     background: linear-gradient(silver 0%, rgb(93, 6, 120) 90%),
     url(https://glamours.eorzeacollection.com/101123/cecil-harvey-og-dark-knight-sprite-0-1626924290.png) no-repeat center  silver;
