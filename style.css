@@ -275,9 +275,12 @@ footer {
     }
     .div-1 {
         flex: 2 30%;
-        order: -1;
+        order: -2;
     }
-   .div-3 {
-    order: -2;
+    .div-2 {
+        order: -3;
+    }
+    .div-3 {
+        order: -1;
    }
 }
