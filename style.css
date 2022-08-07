@@ -110,6 +110,15 @@ h1, p, figcaption {
     font-size: 1em;
     text-shadow: none;
 }
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.grid-items {
+    padding: 10px;
+    border: 2px solid silver;
+    background-color:rgb(234, 234, 234); 
+}
 button {
     cursor: pointer;
     padding:5px 8px;
