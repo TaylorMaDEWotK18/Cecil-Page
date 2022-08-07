@@ -112,7 +112,8 @@ h1, p, figcaption {
 }
 .grid-container {
     display: grid;
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+    margin: 5px 15px;
 }
 .grid-items {
     padding: 10px;
