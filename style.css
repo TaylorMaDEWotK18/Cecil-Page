@@ -132,7 +132,7 @@ button {
     background-color: rgba(194, 190, 198, .8);
 }
 button:hover {
-    color: rgb(203, 196, 196);
+    color: white;
     background-color: rgba(118, 52, 185, 0.6);
     transition: .08s;
     box-shadow: 0 0 10px 3px white;
