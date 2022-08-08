@@ -196,6 +196,13 @@ a:hover {
     color: white;
     transition: .5s;
 }
+form {
+    max-width: 300px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background: #f4f7f8;
+    border-radius: 8px;
+}
 figure {
     position:relative;
     z-index: 2;
