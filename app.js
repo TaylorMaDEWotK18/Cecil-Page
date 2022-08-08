@@ -7,3 +7,5 @@ function shadowBlade() {
 function deathBringer() {
 	window.location="https://finalfantasy.fandom.com/wiki/Deathbringer";
 }
+
+const btn = document.getElementById('btn');
