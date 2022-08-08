@@ -131,6 +131,12 @@ button {
     font: 700 70%/.9 'Cormorant SC', serif;
     background-color: rgba(194, 190, 198, .8);
 }
+button#btn {
+    padding: 10px;
+    margin-top: .5em;
+    background-color: blueviolet;
+    font-weight: bolder;
+}
 button:hover {
     color: white;
     background-color: rgba(118, 52, 185, 0.6);
