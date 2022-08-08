@@ -97,6 +97,7 @@ h1, p, figcaption {
 }
 .weapon-col h1 {
     margin: 0 10px;
+    border-bottom: 1px solid rgb(234, 234, 234);
 }
 .weapon-list {
     display: flex;
@@ -235,6 +236,9 @@ footer {
 @media screen and (max-width: 505px) {
     .main-nav {
         display: block;
+    }
+    .weapon-list {
+    flex-wrap: wrap;
     }
 }
 @media screen and (max-width: 719px) {
