@@ -141,7 +141,7 @@ button#btn {
 button#btn:hover {
     color: white;
     background: radial-gradient(circle,black, purple);
-    transition: color .3s ease, box-shadow .8s ease;
+    transition: color .3s ease, box-shadow .6s ease;
     box-shadow: 0 0 10px 4px rgb(77, 15, 93);
 }
 button:hover {
@@ -234,11 +234,11 @@ figcaption {
     font-weight: bold;
     text-align: center;
 }
-figcaption::after {
+/* figcaption::after {
     content: '\21D1';
     display: block;
     font-size: 3rem;
-}
+} */
 footer {
     padding: 10px;
     color: white;
