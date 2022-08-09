@@ -134,8 +134,15 @@ button {
 button#btn {
     padding: 10px;
     margin-top: .5em;
-    background-color: blueviolet;
+    color: blueviolet;
+    background: radial-gradient(circle, purple, black);
     font-weight: bolder;
+}
+button#btn:hover {
+    color: white;
+    background: radial-gradient(circle,black, purple);
+    transition: .9s;
+    box-shadow: 0 0 10px 3px white;
 }
 button:hover {
     color: white;
