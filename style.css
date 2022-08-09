@@ -141,7 +141,7 @@ button#btn {
 button#btn:hover {
     color: white;
     background: radial-gradient(circle,black, purple);
-    transition: color .3s ease, box-shadow .6s ease;
+    transition: color .2s ease, box-shadow .6s ease;
     box-shadow: 0 0 10px 4px rgb(77, 15, 93);
 }
 button:hover {
@@ -221,6 +221,7 @@ figure {
     position:relative;
     z-index: 2;
     margin: 0;
+    margin-top: 100px;
 }
 figcaption {
     position: sticky;
