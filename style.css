@@ -141,8 +141,8 @@ button#btn {
 button#btn:hover {
     color: white;
     background: radial-gradient(circle,black, purple);
-    transition: .05s;
-    box-shadow: 0 0 10px 3px rgb(77, 15, 93);
+    transition: color .3s ease, box-shadow .8s ease;
+    box-shadow: 0 0 10px 4px rgb(77, 15, 93);
 }
 button:hover {
     color: white;
