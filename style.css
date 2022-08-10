@@ -226,13 +226,14 @@ form {
     background: #f4f7f8;
     border-radius: 4px;
 }
-/* .flex-outer-form, .flex-inner-form {
+.flex-outer-form > li, .flex-inner-form {
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    flex-flow: column wrap;
     align-items: center;
-} */
-
+}
+.flex-outer-form {
+    justify-content: space-between;
+}
 label {
     margin-left: 0;
     font-size: 1rem;
