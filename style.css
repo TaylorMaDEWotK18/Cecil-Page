@@ -221,6 +221,13 @@ label {
 .combat-bio {
     margin-top: 15px;
 }
+.submit-btn {
+    padding: 10px;
+    margin-top: .5em;
+    color: black;
+    background: radial-gradient(circle, grey, silver );
+    font-weight: bolder;
+}
 button#btn {
     padding: 10px;
     margin-top: .5em;
