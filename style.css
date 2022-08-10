@@ -212,6 +212,9 @@ a:hover {
 .form-header {
     margin: 5px 0;
 }
+.form-class {
+    margin: 0;
+}
 form {
     display: none;
     max-width: 300px;
