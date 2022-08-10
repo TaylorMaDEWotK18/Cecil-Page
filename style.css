@@ -63,7 +63,7 @@ article {
     flex-direction: column;
     margin-top: 1rem;
 }
-h1 {
+.intro-heading {
     padding: 1px 20px;
     color: blueviolet;
     letter-spacing: .7rem;
@@ -218,6 +218,7 @@ form {
     border-radius: 4px;
 }
 label {
+    margin-left: 0;
     font-size: 1rem;
 }
 figure {
