@@ -218,6 +218,9 @@ label {
     margin-left: 0;
     font-size: 1rem;
 }
+.combat-bio {
+    margin-top: 15px;
+}
 button#btn {
     padding: 10px;
     margin-top: .5em;
