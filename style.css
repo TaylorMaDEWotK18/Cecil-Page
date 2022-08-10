@@ -63,7 +63,7 @@ article {
     flex-direction: column;
     margin-top: 1rem;
 }
-.intro-heading {
+h1 {
     padding: 1px 20px;
     color: blueviolet;
     letter-spacing: .7rem;
@@ -239,11 +239,6 @@ figcaption {
     font-weight: bold;
     text-align: center;
 }
-/* figcaption::after {
-    content: '\21D1';
-    display: block;
-    font-size: 3rem;
-} */
 footer {
     padding: 10px;
     color: white;
