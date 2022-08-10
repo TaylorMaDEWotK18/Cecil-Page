@@ -210,10 +210,13 @@ a:hover {
     transition: .5s;
 }
 .form-header {
-    margin: 5px 0;
+    border-bottom: 2px solid blueviolet;
+    margin: 1rem 0;
+    
 }
 .form-class {
     margin: 0;
+    text-decoration: underline;
 }
 form {
     display: none;
