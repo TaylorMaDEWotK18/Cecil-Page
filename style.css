@@ -209,7 +209,7 @@ form {
     background: #f4f7f8;
     /* border-radius: 4px; */
 }
-.flex-outer-form > li, .flex-inner-form {
+.flex-outer-form li, .flex-inner-form {
     display: flex;
     flex-flow: column wrap;
     /* align-items: center; */
