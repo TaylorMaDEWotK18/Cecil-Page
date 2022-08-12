@@ -53,8 +53,17 @@
 													<textarea name="combat-history" id="combat-history" cols="30" rows="5"></textarea>
 												</li>
 											</ul>
-												<p class="form-class">Desired Class</p>
-													<ul class="flex-inner-form">
+
+											<label class="flex-inner-form" for="class">Desired Class</label>
+											<select name="user_class" id="class">
+												<option value="dark-knight">Dark Knight</option>
+												<option value="dragoon">Dragoon</option>
+												<option value="summoner">Summoner</option>
+												<option value="black-mage">Black Mage</option>
+												<option value="white-mage">White Mage</option>
+											</select>
+												<!-- <p class="form-class">Desired Class</p> -->
+													<!-- <ul class="flex-inner-form">
 														<li>
 															<input type="checkbox" id="dark-knight">
 															<label for="dark-knight">Dark Knight</label>
@@ -83,7 +92,7 @@
 															<input type="checkbox" id="ninja">
 															<label for="ninja">Ninja</label>
 														</li>
-													</ul>
+													</ul> -->
 													<button type="submit" class="submit-btn">Begin Class Career!</button>
 									</form>
 									<br>
