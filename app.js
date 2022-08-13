@@ -15,7 +15,7 @@ btn.addEventListener('click', () => {
 
 	if (form.style.display === 'none') {
 		form.style.display = 'block';
-		alert('Are you ready to your new destiny?');
+		alert('Are you ready for your new destiny?');
 	} else {
 		form.style.display = 'none';
 	}
