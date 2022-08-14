@@ -38,7 +38,6 @@ ul, div.main-nav {
     margin: .3rem .5rem;
 }
 .dropdown {
-    float: left;
     overflow: hidden;
 }
 .dropdown:hover{
