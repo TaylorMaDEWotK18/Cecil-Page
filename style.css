@@ -37,6 +37,13 @@ ul, div.main-nav {
     align-items: center;
     margin: .3rem .5rem;
 }
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+.item:hover, .dropdown:hover, .dropbtn:hover{
+    background-color: red;
+}
 #title {
     padding: 10px 10px;
     font-size: 2em;
