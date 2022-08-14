@@ -8,6 +8,10 @@ function deathBringer() {
 	window.location="https://finalfantasy.fandom.com/wiki/Deathbringer";
 }
 
+let message = "Cecil is a Beast! Can't wait to keep playing!";
+let x = message.toUpperCase();
+alert(x);
+
 const btn = document.getElementById('btn');
 
 btn.addEventListener('click', () => {
