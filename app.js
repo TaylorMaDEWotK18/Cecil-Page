@@ -9,7 +9,8 @@ function deathBringer() {
 }
 
 let message = "Cecil is a Beast! Can't wait to keep playing!";
-let x = message.toUpperCase();
+// let x = message.toUpperCase();
+let x = message.length;
 alert(x);
 
 const btn = document.getElementById('btn');
