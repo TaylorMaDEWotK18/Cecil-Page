@@ -14,8 +14,8 @@ function deathBringer() {
 // x = message;
 // alert(x);
 
-const name = prompt("What's your name?");
-alert(name);
+// const name = prompt("What's your name?");
+// alert(name);
 
 const btn = document.getElementById('btn');
 
